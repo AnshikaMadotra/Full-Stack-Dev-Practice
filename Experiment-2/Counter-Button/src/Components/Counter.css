@@ -1,0 +1,73 @@
+/* Page Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Counter Container */
+/* .container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 350px;
+} */
+
+/* Heading */
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Counter */
+ h2 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+/* Text Colors */
+.positive {
+    color: green;
+}
+
+.negative {
+    color: red;
+}
+
+/* Buttons */
+button {
+    padding: 10px 18px;
+    margin: 8px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    transition: 0.3s;
+}
+
+/* Individual Button Colors */
+button:nth-child(1) {
+    background-color: #28a745;
+}
+
+button:nth-child(2) {
+    background-color: #dc3545;
+}
+
+button:nth-child(3) {
+    background-color: #007bff;
+}
+
+/* Hover Effect */
+button:hover {
+    opacity: 0.85;
+    transform: scale(1.05);
+}
